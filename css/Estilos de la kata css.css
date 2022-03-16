@@ -1,0 +1,662 @@
+#fondo1{
+    background-color: rgb(192, 245, 253 );
+    position: absolute;
+    height: 150px;
+    width: 1000px;
+    top: 0px;
+    left: 750px;
+    opacity: 20%;
+}
+#fondohoax{
+    border-radius: 5%;
+    background-color: rgb(51, 71, 214 );
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    top: 60px;
+    left: 1190px;
+}
+#triangulo{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid rgb(230, 233, 255);
+    transform: rotate(180deg);
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+#imagen1{
+    background-image: url("./Imagen1re.jpg");
+    height: 1200px;
+    width: 1000px;
+    position: absolute;
+    top:155px;
+    left: 750px;
+}
+#proteger{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 653px;
+    left: 170px;
+}
+#estrella{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 653px;
+    left: 400px;
+}
+#reloj{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 880px;
+    left: 160px;
+    background-color: rgb(209, 213, 247);
+}
+#fondo2{
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    height: 200px;
+    width: 1025px;
+    top: 1100px;
+    left: 150px;
+    box-shadow: 5px 5px 40px 5px rgb(193, 207, 253);
+}
+#location{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 170px;
+}
+#date{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 450px;
+}
+#vaccinety{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 730px;
+}
+#fondo3{
+    border-radius: 5%;
+    background-color: rgb(51, 71, 214 );
+    position: absolute;
+    height: 60px;
+    width: 130px;
+    top: 1150px;
+    left: 950px;
+}
+#astrazeneca{
+    position: absolute;
+    height: 176px;
+    width: 300px;
+    top: 1400px;
+    left: 200px;
+    opacity: 30%;
+}
+#sinovac{
+    position: absolute;
+    height: 51px;
+    width: 300px;
+    top: 1460px;
+    left: 600px;
+    opacity: 20%;
+}
+#pfizer{
+    position: absolute;
+    height: 174px;
+    width: 300px;
+    top: 1395px;
+    left: 1000px;
+    opacity: 20%;
+}
+#moderna{
+    position: absolute;
+    height: 169px;
+    width: 300px;
+    top: 1415px;
+    left: 1350px;
+    opacity: 20%;
+}
+#benefit1{
+    background-color: rgb(248, 248, 248);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:1880px;
+    left: 180px;
+    box-shadow: 2px 3px 4px 2px rgb(220, 226, 248);
+}
+#fondobenefit1{
+    background-color: rgb(238, 242, 254 );
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1890px;
+    left: 190px;
+    border-radius: 5%;
+
+}
+#benefit1-2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 1900px;
+    left: 200px;
+}
+#benefit2{
+    background-color: rgb(248, 248, 248);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:1880px;
+    left: 500px;
+    box-shadow: 0px 10px 20px 0px rgb(161, 182, 252);
+}
+#fondobenefit2-2{
+    background-color: rgb(238, 242, 254 );
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1890px;
+    left: 510px;
+    border-radius: 5%;
+}
+#benefit2-2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 1900px;
+    left: 520px;
+}
+#benefit3{
+    background-color: rgb(248, 248, 248);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:1880px;
+    left: 820px;
+    box-shadow: 2px 3px 5px 4px rgb(220, 226, 248);
+}
+#fondobenefit3-2{
+    background-color: rgb(238, 242, 254 );
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1890px;
+    left: 830px;
+    border-radius: 5%;
+}
+#benefit3-2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 1900px;
+    left: 840px;
+}
+#benefit4{
+    background-color: rgb(248, 248, 248);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:1880px;
+    left: 1140px;
+    box-shadow: 2px 3px 5px 4px rgb(196, 208, 252);
+}
+#fondobenefit4{
+    background-color: rgb(238, 242, 254 );
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1890px;
+    left: 1150px;
+    border-radius: 5%;
+}
+#benefit4-2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 1900px;
+    left: 1160px;
+}
+#imagen2{
+    background-image: url("./Imagen3-2.png");
+    height: 811px;
+    width: 500px;
+    position: absolute;
+    top:2500px;
+    left: 100px;
+}
+#fondoazulimagen2{
+    background-color: rgb(79, 119, 255);
+    height: 611px;
+    width: 700px;
+    position: absolute;
+    top: 2700px;
+    left: 0px;
+}
+#desplegable1{
+    background-color: rgb(248, 248, 248);
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top:2710px;
+    left: 850px;
+}
+#fondoiconodesplegable{
+    background-color: rgb(238, 242, 254 );
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 2720px;
+    left: 1295px;
+    border-radius: 5%;
+}
+#iconodesplegable{
+    background-image: url("./cuidado.png");
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 2725px;
+    left: 1300px;
+    transform: rotate(180deg);
+}
+#iconodesplegable1-2{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 2725px;
+    left: 860px;
+}
+#fondoicono7{
+    background-color: rgb(238, 242, 254 );
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 2720px;
+    left: 855px;
+    border-radius: 5%;
+}
+#desplegable2{
+    background-color: rgb(248, 248, 248);
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    top:2850px;
+    left: 850px;
+    box-shadow: 0px 1px 0px 1px rgb(226, 233, 254);
+}
+#fondoiconoplegable2{
+    background-color: rgb(238, 242, 254 );
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 2830px;
+    left: 1295px;
+    border-radius: 5%;
+}
+#iconopleganle2{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 2835px;
+    left: 1300px;
+    border-radius: 5%;
+}
+#fondoicono8{
+    background-color: rgb(238, 242, 254);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 2830px;
+    left: 855px;
+}
+#icono8{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 2835px;
+    left: 860px;
+}
+#desplegable3{
+    background-color: rgb(248, 248, 248);
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top:3000px;
+    left: 850px;
+}
+#fondoiconoplegable3{
+    background-color: rgb(238, 242, 254 );
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3010px;
+    left: 1295px;
+    border-radius: 5%;
+}
+#iconoplegable3{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 3015px;
+    left: 1300px;
+    transform: rotate(180deg);
+}
+#fondoicono9{
+    background-color: rgb(238, 242, 254 );
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3010px;
+    left: 855px;
+}
+#icono9{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 3015px;
+    left: 860px;
+    border-radius: 5%;
+}
+#desplegable4{
+    background-color: rgb(248, 248, 248);
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top:3130px;
+    left: 850px;
+}
+#fondoiconoplegable4{
+    background-color: rgb(238, 242, 254 );
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3110px;
+    left: 1295px;
+    border-radius: 5%;
+}
+#iconoplegable4{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 3115px;
+    left: 1300px;
+    transform: rotate(180deg);
+}
+#fondoicono10{
+    background-color: rgb(238, 242, 254 );
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3110px;
+    left: 855px;
+}
+#icono10{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 3115px;
+    left: 860px;
+    border-radius: 5%;
+}
+#fondoazulimagen3{
+    background-color: rgb(79, 119, 255);
+    height: 595px;
+    width: 850px;
+    position: absolute;
+    top: 4030px;
+    left: 850px;
+}
+#imagen3{
+    height: 775px ;
+    width: 600px;
+    position: absolute;
+    top: 3850px;
+    left: 950px;
+}
+#cuadrocel{
+    background-color: rgb(248, 248, 248) ;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 4030px;
+    left: 150px;
+    box-shadow: 0px 1px 30px 1px rgb(236, 240, 254) ;
+}
+#fondocall{
+    background-color: rgb(238, 242, 254);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 4053px;
+    left: 160px;
+    border-radius: 10%;
+}
+#iconocall{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:4073px;
+    left:180px ;
+}
+#bottomcall{
+    background-color: rgb(238, 242, 254);
+    height: 80px;
+    width: 240px;
+    position: absolute;
+    top: 4180px;
+    left: 180px;
+    border-radius: 10%;
+}
+#cuadrochat{
+    background-color: rgb(248, 248, 248) ;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 4030px;
+    left: 500px;
+    box-shadow: 0px 1px 30px 1px rgb(236, 240, 254) ;
+}
+#fondochat{
+    background-color: rgb(238, 242, 254);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 4053px;
+    left: 510px;
+    border-radius: 10%;
+}
+#iconochat{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:4073px;
+    left:530px ;
+}
+#bottomchat{
+    background-color: rgb(40, 88, 253);
+    height: 80px;
+    width: 240px;
+    position: absolute;
+    top: 4180px;
+    left: 530px;
+    border-radius: 10%;
+}
+#cuadrovideo{
+    background-color: rgb(248, 248, 248) ;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 4330px;
+    left: 150px;
+    box-shadow: 0px 1px 30px 1px rgb(236, 240, 254) ;
+}
+#fondovideo{
+    background-color: rgb(238, 242, 254);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 4353px;
+    left: 160px;
+    border-radius: 10%;
+}
+#iconovideo{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:4373px;
+    left:180px ;
+}
+#bottomvideo{
+    background-color: rgb(238, 242, 254);
+    height: 80px;
+    width: 240px;
+    position: absolute;
+    top: 4480px;
+    left: 180px;
+    border-radius: 10%;
+}
+#cuadromensage{
+    background-color: rgb(248, 248, 248) ;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 4330px;
+    left: 500px;
+    box-shadow: 0px 1px 30px 1px rgb(236, 240, 254) ;
+}
+#fondomensage{
+    background-color: rgb(238, 242, 254);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 4353px;
+    left: 510px;
+    border-radius: 10%;
+}
+#iconomensage{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:4373px;
+    left:530px ;
+}
+#bottommensage{
+    background-color: rgb(238, 242, 254);
+    height: 80px;
+    width: 240px;
+    position: absolute;
+    top: 4480px;
+    left: 530px;
+    border-radius: 10%;
+}
+#fondofinal{
+    background-color: rgb(135, 182, 198  );
+    height: 485px;
+    width: 1750px;
+    position: absolute;
+    top: 4800px;
+    left: 0px;
+    opacity: 20%;
+}
+#rombof{
+    background: rgb(255, 255, 255);
+    width: 20px; 
+    height: 20px; 
+    position: absolute;
+    top: 4880px;
+    left: 202px;
+    transform: rotate(45deg);
+}
+#triangulof{
+    width: 0;
+    height: 0;
+    border-right: 200px solid transparent;
+    border-top: 210px solid transparent;
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid rgb(230, 233, 255);
+    position: absolute;
+    top: 4875px;
+    left: 1300px;
+    box-shadow: 0px 1px 40px 1px rgb(233, 233, 233);
+}
+#romboi{
+    background: rgb(230, 233, 255);
+    width: 20px; 
+    height: 20px; 
+    position: absolute;
+    top: 70px;
+    left: 165px;
+    transform: rotate(45deg);
+}
+#triangulo2{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid rgb(230, 233, 255);
+    position: absolute;
+    top: 600px;
+    left: 550px;
+    transform: rotate(270deg);
+}
+#triangulo3{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid rgb(230, 233, 255);
+    border-bottom: 50px solid rgb(230, 233, 255);
+    position: absolute;
+    top: 2300px;
+    left: 0px;
+}
+#triangulo3-2{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid rgb(230, 233, 255);
+    border-bottom: 50px solid rgb(230, 233, 255);
+    position: absolute;
+    top: 2405px;
+    left: 0px;
+    transform: rotate(90deg);
+}
+#triangulo4{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid rgb(230, 233, 255);
+    border-bottom: 100px solid rgb(230, 233, 255);
+    position: absolute;
+    top: 3600px;
+    left: 1600px;
+    transform: rotate(270deg);
+}
+#triangulo4-2{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid rgb(230, 233, 255);
+    border-bottom: 100px solid rgb(230, 233, 255);
+    position: absolute;
+    top: 3805px;
+    left: 1600px;
+    transform: rotate(180deg);
+}

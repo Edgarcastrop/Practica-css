@@ -1,0 +1,601 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#vaccination{
+    color: darkblue;
+    font-weight: bolder;
+    position:absolute;
+    top: 35px;
+    left: 150px;
+    font-size: 40px;
+}
+#database{
+    color: rgb(165, 165, 165);
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    font-size: 20px;
+}
+#education{
+    color: rgb(165, 165, 165);
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+    left: 750px;
+    font-size: 20px;
+}
+#news{
+    color: rgb(165, 165, 165);
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+    left: 900px;
+    font-size: 20px;
+}
+#regulation{
+    color: rgb(165, 165, 165);
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+    left: 1050px;
+    font-size: 20px;
+}
+#hoaxbuster{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60px;
+    left: 1200px;
+    font-size: 20px;
+}
+#fight{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size: 90px;
+}
+#textfight{
+    color: rgb(159, 164, 200);
+    position: absolute;
+    top: 500px;
+    left: 160px;
+    font-size: 25px;
+}
+#texticono1{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 630px;
+    left: 200px;
+    font-weight: 400;
+    font-size: 20px;
+}
+#textoicono2{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top:630px;
+    left: 450px;
+    font-weight: 400;
+    font-size: 20px;
+}
+#textoicono3{
+    color: rgb(62, 69, 119) ;
+    position: absolute;
+    top: 850px;
+    left: 200px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#textoicono4{
+    color: rgb(165, 165, 165) ;
+    position: absolute;
+    top: 1120px;
+    left: 200px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#textoicono4-2{
+    color: rgb(62, 69, 119) ;
+    position: absolute;
+    top: 1160px;
+    left: 205px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#textoicono5{
+    color: rgb(165, 165, 165) ;
+    position: absolute;
+    top: 1120px;
+    left: 480px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#textoicono5-2{
+    color: rgb(62, 69, 119) ;
+    position: absolute;
+    top: 1160px;
+    left: 485px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#textoicono6{
+    color: rgb(165, 165, 165) ;
+    position: absolute;
+    top: 1120px;
+    left: 760px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#textoicono6-2{
+    color: rgb(62, 69, 119) ;
+    position: absolute;
+    top: 1160px;
+    left: 765px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#submit{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1148px;
+    left: 980px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#whyshould{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+    font-size: 50px;
+}
+#textowhyshould{
+    color: rgb(159, 164, 200);
+    position: absolute;
+    top: 1700px;
+    left: 160px;
+    font-size: 25px;
+}
+#titulobenefit1{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 1930px;
+    left: 200px;
+    font-size: 25px;
+}
+#textbenefit1{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 2000px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#titulobenefit2{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 1930px;
+    left: 520px;
+    font-size: 25px;
+}
+#textbenefit2{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 2000px;
+    left: 520px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#titulobenefit3{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 1930px;
+    left: 840px;
+    font-size: 25px;
+}
+#textbenefit3{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 2000px;
+    left: 840px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#titulobenefit4{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 1930px;
+    left: 1160px;
+    font-size: 25px;
+}
+#textbenefit4{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 2000px;
+    left: 1160px;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+#preparation{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 2400px;
+    left: 800px;
+    font-size: 60px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+#textpreparation{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 2500px;
+    left: 800px;
+    font-size: 25px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+#tituloicono7{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 2705px;
+    left: 910px;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+#tituloicono8{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 2810px;
+    left: 910px;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+#texticono8{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 2850px;
+    left: 910px;
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+#tituloicono9{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 2994px;
+    left: 910px;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+#tituloicono10{
+    color: rgb(62, 69, 119);
+    position: absolute;
+    top: 3094px;
+    left: 910px;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+#contact{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 3600px;
+    left: 150px;
+    font-size: 60px;
+    font-weight: 900;
+}
+#textcontact{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 3700px;
+    left: 150px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#call{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4030px;
+    left: 250px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#extracall{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 4070px;
+    left: 250px;
+    font-size: 19px;
+    font-weight: 600;
+}
+#textbottom{
+    color: rgb(0, 53, 231);
+    position: absolute;
+    top: 4172px;
+    left: 233px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#chat{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4030px;
+    left: 600px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#textchat{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 3700px;
+    left: 200px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#extrachat{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 4070px;
+    left: 600px;
+    font-size: 19px;
+    font-weight: 600;
+}
+#chatbottom{
+    color: rgb(238, 242, 254);
+    position: absolute;
+    top: 4172px;
+    left: 583px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#textvideo{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 3600px;
+    left: 150px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#video{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4330px;
+    left: 250px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#extravideo{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 4370px;
+    left: 250px;
+    font-size: 19px;
+    font-weight: 600;
+}
+#videobottom{
+    color: rgb(0, 53, 231);
+    position: absolute;
+    top: 4472px;
+    left: 193px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#textmensage{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 3600px;
+    left: 600px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#mensage{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4330px;
+    left: 600px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#extramensage{
+    color: rgb(96, 106, 148);
+    position: absolute;
+    top: 4370px;
+    left: 600px;
+    font-size: 19px;
+    font-weight: 600;
+}
+#mensagebottom{
+    color: rgb(0, 53, 231);
+    position: absolute;
+    top: 4472px;
+    left: 553px;
+    font-size: 29px;
+    font-weight: 600;
+}
+#vaccinationpf{
+    color: blue ;
+    font-weight: bolder;
+    position:absolute;
+    top: 4845px;
+    left: 185px;
+    font-size: 40px;   
+    font-weight: 600;
+}
+#parrafof1{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4920px;
+    left: 185px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+}
+#parrafof2{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4955px;
+    left: 185px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+}
+#parrafof3{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4990px;
+    left: 185px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+}
+#derechos{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 5190px;
+    left: 180px;
+    font-size: 23px;
+    font-weight: 600;
+    opacity: 50%;
+}
+#about{
+    color:rgb(0, 25, 108);
+    font-weight: bolder;
+    position:absolute;
+    top: 4850px;
+    left: 985px;
+    font-size: 30px;   
+    font-weight: 600;
+}
+#aboutus{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4920px;
+    left: 985px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+}
+#features{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4980px;
+    left: 985px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+}
+#newsyblog{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 5040px;
+    left: 985px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+}
+#company{
+    color:rgb(0, 25, 108);
+    font-weight: bolder;
+    position:absolute;
+    top: 4850px;
+    left: 1250px;
+    font-size: 30px;   
+    font-weight: 600;
+}
+#howwe{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4920px;
+    left: 1250px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space:nowrap ;
+}
+#capital{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4980px;
+    left: 1250px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space: nowrap;
+}
+#segurity{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 5040px;
+    left: 1250px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space: nowrap;
+}
+#support{
+    color:rgb(0, 25, 108);
+    font-weight: bolder;
+    position:absolute;
+    top: 4850px;
+    left: 1515px;
+    font-size: 30px;   
+    font-weight: 600;
+}
+#FAQs{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4920px;
+    left: 1515px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space:nowrap ;
+}
+#supportcenter{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 4980px;
+    left: 1515px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space:nowrap ;
+}
+#contactus{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 5040px;
+    left: 1515px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space:nowrap ;
+}
+#termns{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 5200px;
+    left: 1258px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space:nowrap ;
+}
+#privacy{
+    color: rgb(0, 25, 108);
+    position: absolute;
+    top: 5200px;
+    left: 1560px;
+    font-size: 23px;
+    font-weight: 500;
+    opacity: 50%;
+    white-space:nowrap ;
+}
